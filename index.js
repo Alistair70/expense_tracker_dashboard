@@ -273,5 +273,5 @@ function getEncodedID_or_Landing() {
             return value;
         }
     }
-    //window.location.href = 'https://expense-tracker-aytr.onrender.com';
+    window.location.href = 'https://expense-tracker-aytr.onrender.com';
 }
