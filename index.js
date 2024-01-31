@@ -1,12 +1,12 @@
 /////////REDIRECT BUTTON FUNTIONALITY
 document.getElementById("toIncome").addEventListener("click", function() {
-    window.location.href = "https://expense-tracker-income.netlify.app";
+    window.location.href = "https://income.expense-tracker-demo.site/";
 });
 document.getElementById("toExpense").addEventListener("click", function() {
-    window.location.href = "https://expense-tracker-expenses.netlify.app";
+    window.location.href = "https://expenses.expense-tracker-demo.site/";
 });
 document.getElementById("toBudget").addEventListener("click", function() {
-    window.location.href = "https://expense-tracker-budget.netlify.app";
+    window.location.href = "https://budget.expense-tracker-demo.site/";
 });
 
 document.getElementById("logout").addEventListener("click", function() {
