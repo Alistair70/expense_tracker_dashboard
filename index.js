@@ -12,7 +12,7 @@ document.getElementById("toBudget").addEventListener("click", function() {
 document.getElementById("logout").addEventListener("click", function() {
     cookie_name = "expense_tracker_cookie_container"
     document.cookie = `${cookie_name}=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;`;
-    window.location.href = 'https://expense-tracker-aytr.onrender.com';
+    window.location.href = 'https://landing.expense-tracker-demo.site/';
 });
 
 document.addEventListener('DOMContentLoaded', function () {
