@@ -39,7 +39,6 @@ function income_v_expense() {
 
         if(combinedData.status == 'no_data')
         {
-            console.log(combinedData.status)
             var div = document.getElementById('income_expense_comparison');
             div.innerHTML = 'NO DATA';
         }
@@ -93,7 +92,6 @@ function income_breakdown() {
     .then(data => {   
         if(data.status == 'no_data')
         {
-            console.log(data.status)
             var div1 = document.getElementById('income_breakdown');
             div1.innerHTML = 'NO DATA';
         }     
@@ -144,7 +142,6 @@ function expense_breakdown() {
     .then(data => {      
         if(data.status == 'no_data')
         {
-            console.log(data.status)
             var div = document.getElementById('expense_breakdown');
             div.innerHTML = 'NO DATA';
         } 
@@ -197,7 +194,6 @@ function budget_progress() {
         
         if(data.status == 'no_data')
         {
-            console.log(data.status)
             var div = document.getElementById('progress_bars');
             div.innerHTML = 'NO DATA';
         } 
