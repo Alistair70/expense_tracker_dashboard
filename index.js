@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 function income_v_expense() {
-    fetch('https://expense-tracker-aytr.onrender.com/get_income_v_expense', {
+    fetch('https://main-py-server.onrender.com/get_income_v_expense', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -87,7 +87,7 @@ function income_v_expense() {
 }
 
 function income_breakdown() {
-    fetch('https://expense-tracker-aytr.onrender.com/get_income_breakdown', {
+    fetch('https://main-py-server.onrender.com/get_income_breakdown', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -130,7 +130,7 @@ function income_breakdown() {
 }
 
 function expense_breakdown() {
-    fetch('https://expense-tracker-aytr.onrender.com/get_expense_breakdown', {
+    fetch('https://main-py-server.onrender.com/get_expense_breakdown', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -175,7 +175,7 @@ function expense_breakdown() {
 }
 
 function budget_progress() {
-    fetch('https://expense-tracker-aytr.onrender.com/get_budget_recent_expenses', {
+    fetch('https://main-py-server.onrender.com/get_budget_recent_expenses', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -263,5 +263,5 @@ function getEncodedID_or_Landing() {
             return value;
         }
     }
-    window.location.href = 'https://expense-tracker-aytr.onrender.com';
+    window.location.href = 'https://landing.expense-tracker-demo.site/';
 }
